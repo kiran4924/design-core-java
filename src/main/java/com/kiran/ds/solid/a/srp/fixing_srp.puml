@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Book {
+name
+author
+isbn
+text
+printText(Printer)
+mailText(Mailer)
+}
+
+class BookPrinter {
+book
+printBook()
+}
+
+class BookMailer {
+book
+mailBook()
+}
+
+Book <.. BookPrinter
+Book <.. BookMailer
+
+@enduml

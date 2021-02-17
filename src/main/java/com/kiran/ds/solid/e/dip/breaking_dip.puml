@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class BackEndDeveloper{
+writeJava()
+}
+
+class FrontEndDeveloper{
+writeJavascript()
+}
+
+class Project {
+implement()
+}
+
+Project ..> BackEndDeveloper
+Project ..> FrontEndDeveloper
+
+@enduml

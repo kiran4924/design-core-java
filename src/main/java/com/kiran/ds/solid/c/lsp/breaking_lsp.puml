@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class BankingAppWithdrawalService
+
+class Account {
+deposit(BigDecimal)
+withdraw(BigDecimal)
+}
+
+class CurrentAccount {
+deposit(BigDecimal)
+withdraw(BigDecimal)
+}
+
+class SavingsAccount {
+deposit(BigDecimal)
+withdraw(BigDecimal)
+}
+
+class FixedTermDepositAccount  {
+deposit(BigDecimal)
+withdraw(BigDecimal) - not supported
+}
+
+BankingAppWithdrawalService ..> Account
+Account <|-- CurrentAccount
+Account <|-- SavingsAccount
+Account <|.. FixedTermDepositAccount
+
+@enduml

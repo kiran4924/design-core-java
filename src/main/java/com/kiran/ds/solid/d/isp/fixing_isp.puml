@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Printer {
+print()
+}
+
+interface Scanner {
+scan()
+}
+
+interface Fax {
+fax()
+}
+
+class AllInOnePrinter {
+print()
+scan()
+fax()
+}
+
+class EconomicPrinter {
+print()
+}
+
+Printer <|-- AllInOnePrinter
+Scanner <|-- AllInOnePrinter
+Fax <|-- AllInOnePrinter
+Printer <|-- EconomicPrinter
+
+@enduml
