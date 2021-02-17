@@ -1,4 +1,4 @@
-package com.kiran.ds.patterns;
+package com.kiran.design.patterns;
 
 public class Clone {
 

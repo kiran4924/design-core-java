@@ -1,4 +1,4 @@
-package com.kiran.ds.threads;
+package com.kiran.design.threads;
 
 public class SequencePrinter {
 

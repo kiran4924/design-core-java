@@ -1,5 +1,6 @@
-package com.kiran.ds.threads;
+package com.kiran.design.threads;
 
+// Macquarie
 public class RepeatSequencePrinter {
 
     private int count = 1;

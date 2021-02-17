@@ -1,4 +1,4 @@
-package com.kiran.ds.patterns.factory;
+package com.kiran.design.patterns.factory;
 
 public class FactoryPattern {
 

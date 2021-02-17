@@ -1,6 +1,6 @@
-package com.kiran.ds.generics;
+package com.kiran.design.generics;
 
-public class NonBlahResponse {
+public class BlahResponse {
 
     public String getName() {
         return name;
@@ -11,8 +11,9 @@ public class NonBlahResponse {
     }
 
     private String name;
+
     @Override
     public String toString() {
-        return "NonBlahResponse{}";
+        return "BlahResponse{}";
     }
 }

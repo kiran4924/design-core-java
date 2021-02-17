@@ -1,4 +1,4 @@
-package com.kiran.ds.generics;
+package com.kiran.design.generics;
 
 import java.util.Arrays;
 
